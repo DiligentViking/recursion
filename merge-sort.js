@@ -6,7 +6,7 @@ function mergeSort(array) {
     // sort the right half
     // merge both halves
 
-  if (array.length === 1) {
+  if (array.length <= 1) {
     return array;
   }
 
